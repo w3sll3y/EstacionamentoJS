@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>Estacionamento</title>
+</head>
+<body>
+<div  class="container-fluid">
+    
+    <div>
+        <input class="form-control mt-5" type="text" id="name" placeholder="Digite o nome do veículo" autocomplete="off">
+
+        <input class="form-control mt-3" type="text" id="licence" placeholder="Digite a placa do veículo" autocomplete="off">
+        <button class="btn btn-success mt-3" id="send">Registrar</button>
+    </div>
+    <table class="table table-striped table-dark mt-3">
+        <thead>
+            <tr>
+                <th scope="col">Veículo</th>
+                <th scope="col">Placa</th>
+                <th scope="col">Horário</th>
+                <th scope="col">Ações</th>
+            </tr>
+        </thead>
+        <tbody id="garage">
+
+        </tbody>
+    </table>
+</div>
+</body>
+<script src="main.js"></script>
+<style>
+   body{
+        background-color: rgb(53, 53, 53);
+    }
+</style>
+</html>
