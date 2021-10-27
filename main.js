@@ -1,4 +1,4 @@
-(() => { 
+(() => {  
     const $ = q => document.querySelector(q)
 
     function convertPeriod(mil){
